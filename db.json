@@ -183,7 +183,8 @@
       "email": "burguerwaiter@burguers.com",
       "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
       "roles": {
-        "waiter": true
+        "waiter": true,
+        "admin":false
       },
       "id": 3
     },
