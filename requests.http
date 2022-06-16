@@ -2,7 +2,7 @@ POST http://localhost:8080/login HTTP/1.1
 content-type: application/json
 
 {
-    "email": "burguerchef@burguers.com",
+    "email": "grace.hopper@burguers.com",
     "password": "123456"
 }
 
@@ -17,6 +17,10 @@ authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlL
     "admin": true
   }
 }
+
+DELETE http://localhost:8080/users/4 HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBidXJndWVycy5jb20iLCJpYXQiOjE2NTUzMTczNTksImV4cCI6MTY1NTMyMDk1OSwic3ViIjoiMiJ9.V8XPqoMogazGvef_1x67-ir4b5xy4neo_fK0zMMC_tY
 
 GET http://localhost:8080/products HTTP/1.1
 content-type: application/json
